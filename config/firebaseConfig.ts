@@ -1,6 +1,6 @@
 import admin from "firebase-admin";
 
-const serviceAccount = require("./serviceAccountKey.json"); // simpan file ini secara lokal
+const serviceAccount = require("./serviceAccountKey.json"); // save this file in local config
 
 if (!admin.apps.length) {
   admin.initializeApp({
